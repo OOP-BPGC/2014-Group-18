@@ -1,0 +1,98 @@
+USE CASE NAME - LOGIN
+SAMPLE INPUT:   Username = random
+				Password = random
+SAMPLE OUTPUT:	 Invalid details
+
+SAMPLE INPUT:   Username = guptarohit994
+				Password = rohitg
+SAMPLE OUTPUT:	 Logs in
+
+------------------------------------------------------------------------
+USE CASE NAME - BOOKING A CAB
+SAMPLE INPUT:	Starting point of journey - Bits
+				Ending point of journey -   Bits
+SAMPLE OUTPUT:	Select different starting and ending points
+
+SAMPLE INPUT:	Starting point of journey - Bits
+				Ending point of journey -   Vasco
+				Select Date and Time of journey - 11/20/14 5:00 PM    (Present date is 11/24/14 5:00 PM)
+SAMPLE OUTPUT:	 Booking must be done atleast 2 hours before the time of journey.
+
+SAMPLE INPUT:   Starting point of journey - Bits
+				Ending point of journey -   Vasco
+				Select Date and Time of journey - 11/25/14 5:00 PM      (Present date is 11/24/14 5:00 PM)
+				One way or round trip - 2
+				Confirm Booking
+SAMPLE OUTPUT:  Cab has been booked successfully Rohit Gupta
+				Your dues have also been updated
+-------------------------------------------------------------------------
+USE CASE NAME - CANCEL BOOKING FOR CABS
+SAMPLE INPUT:   Cancel "cab no.35 on 20-11-2014 10:50 PM
+SAMPLE OUTPUT:   You are not allowed to cancel this cab booking now.
+
+SAMPLE INPUT:   Cancel "cab no.34 on 25-11-2014 10:50 PM
+SAMPLE OUTPUT:   Cab has been successfully cancelled and amount refunded. 		(Present date is 11/24/14 5:00 PM)
+
+-----------------------------------------------------------------------------
+USE CASE NAME - ROOM BOOKING
+SAMPLE INPUT:   Room No. - c304
+				Select Date and time of booking  - 11/20/14 5:00 PM
+SAMPLE OUTPUT:	On checking availability - Booking must be done atleast 1 day before.
+	
+SAMPLE INPUT:   Room No. - c304
+				Select Date and time of booking  - 11/20/14 5:00 PM    (Suppose room is unavailable)
+				Enter duration(hours) - 1
+				Reason - test
+SAMPLE OUTPUT:	Selected room is available for that duration
+				Do you want to book the room?     YES
+				Booking has been successfully queued.
+				
+	
+SAMPLE INPUT:   Room No. - c304
+				Select Date and time of booking  - 11/20/14 5:00 PM
+				Enter duration(hours) - 1
+				Reason - test
+SAMPLE OUTPUT:	On checking availability - Selected room is not available..Select another room.
+
+SAMPLE INPUT:   Check status of earlier booking
+SAMPLE OUTPUT:  Shows the booking status of every entry made by that user.
+
+SAMPLE INPUT:    Select any entry from drop down menu and click cancel.
+SAMPLE OUTPUT:	  This entry cannot be cancelled now.      (If the date of booking the room has passed.)
+
+SAMPLE INPUT:    Select any entry from drop down menu and click cancel.
+SAMPLE OUTPUT:	  Room booking has been successfully cancelled.
+
+ -----------------------------------------------------------------------------
+USE CASE NAME - ROOM ADMIN
+
+SAMPLE INPUT:    Select the application that you want to approve or disapprove
+				 Check the reason given by applicant
+				 Accept/Deny
+				 If deny, reason for denying(optional)
+SAMPLE OUTPUT:	 Application no. 40 has been successfully denied.
+
+--------------------------------------------------------------------------------
+USE CASE NAME - CAB ADMIN
+
+SAMPLE INPUT:	Starting point of journey - Bits
+				Ending point of journey -   Bits
+SAMPLE OUTPUT:	Select different starting and ending points
+
+SAMPLE INPUT:	Starting point of journey - Bits
+				Ending point of journey -   Vasco
+				Enter new fare - 300
+SAMPLE OUTPUT:	Fare from Bits to Vasco has been successfully changed to Rs.300
+
+--------------------------------------------------------------------------------
+USE CASE NAME - LOG OUT
+
+SAMPLE INPUT:   on clicking, Log Out
+SAMPLE OUT:     Successfully logged out
+
+--------------------------------------------------------------------------------
+USE CASE NAME - EXIT
+
+SAMPLE INPUT:   on clicking, Exit
+SAMPLE OUTPUT:   Thank You for visiting us..
+

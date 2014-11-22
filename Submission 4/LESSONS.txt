@@ -1,0 +1,12 @@
+1. Positives of the group
+    All group members were very enthusiastic and met regularly to discuss the project. 
+    The work was also well divided and was completed on time.
+
+2. Negatives of the group
+    Coding part was left towards the end.
+    Unequal contribution
+
+3. What would we do differently next time?
+    We would start the coding part a little before hand, so that it becomes easier to make any changes further.
+    We would have also liked to develop a web-based app for this software to implement the client-server architectutre.
+ 
