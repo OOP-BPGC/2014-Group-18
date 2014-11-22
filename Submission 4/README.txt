@@ -61,3 +61,20 @@ Unit Tests submitted at     4			ALL
 the end of Stage-2
 Tests added later	   Nil
 ---------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------
+Special Requirements 
+---------------------------------------------------------------------------------------------
+For successfully running the executable .JAR file, requirements are - 
+1. Working internet connection  - for sending mails.
+2. Database over which the executable would be working.
+3. Some libraries were also required
+		a. sendmail.jar
+		b. mysql-connector-java-5.1.34-bin.jar
+		c. activation.jar
+		d. JTimeChooser_0.1.0.jar
+		
+Links for the software and libraries used are :
+1. WAMP Server 2.5  (http://www.wampserver.com/en/)
+2. mysql-connector-java-5.1.34-bin.jar  (http://dev.mysql.com/downloads/connector/j/5.1.html)
